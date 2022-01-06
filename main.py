@@ -43,9 +43,7 @@ edit_menu.add_command(label="Undo")
 edit_menu.add_command(label="Redo")
 
 # Add Status Bar To Bottom Of App
-
-
-
-
+status_bar = Label(root, text='Ready   ', anchor=E)
+status_bar.pack(fill=X, side=BOTTOM, ipady=5)
 
 root.mainloop()
